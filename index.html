@@ -11,60 +11,31 @@
 <body>
     <h2>Bundle & Save</h2>
 
-    <!-- 1 Pair -->
-    <div class="bundle-box active">
+    <!-- Bundle Template -->
+    <div class="bundle-box active" data-price="195">
         <div class="bundle-header">
             <div class="bundle-left">
-                <input type="radio" name="bundle" checked onclick="selectBundle(this,195)">
+                <input type="radio" name="bundle" checked onclick="selectBundle(this)">
                 <span>1 Pair</span>
             </div>
             <span>50% OFF</span>
         </div>
         <div class="discount">DKK 195.00</div>
-
         <div class="bundle-content">
             <div class="table">
                 <div class="row labels">
                     <div class="cell">Size</div>
                     <div class="cell">Colour</div>
                 </div>
-                <div class="row">
-                    <div class="cell">
-                        <select>
-                            <option>S</option>
-                            <option>M</option>
-                        </select>
-                    </div>
-                    <div class="cell">
-                        <select>
-                            <option>Black</option>
-                            <option>White</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="cell">
-                        <select>
-                            <option>S</option>
-                            <option>M</option>
-                        </select>
-                    </div>
-                    <div class="cell">
-                        <select>
-                            <option>Black</option>
-                            <option>White</option>
-                        </select>
-                    </div>
-                </div>
+                <!-- JS will inject 2 rows here -->
             </div>
         </div>
     </div>
 
-    <!-- 2 Pair -->
-    <div class="bundle-box">
+    <div class="bundle-box" data-price="345">
         <div class="bundle-header">
             <div class="bundle-left">
-                <input type="radio" name="bundle" onclick="selectBundle(this,345)">
+                <input type="radio" name="bundle" onclick="selectBundle(this)">
                 <span>2 Pairs</span>
             </div>
             <span>40% OFF</span>
@@ -77,43 +48,14 @@
                     <div class="cell">Size</div>
                     <div class="cell">Colour</div>
                 </div>
-                <div class="row">
-                    <div class="cell">
-                        <select>
-                            <option>S</option>
-                            <option>M</option>
-                        </select>
-                    </div>
-                    <div class="cell">
-                        <select>
-                            <option>Black</option>
-                            <option>White</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="cell">
-                        <select>
-                            <option>S</option>
-                            <option>M</option>
-                        </select>
-                    </div>
-                    <div class="cell">
-                        <select>
-                            <option>Black</option>
-                            <option>White</option>
-                        </select>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
 
-    <!-- 3 Pair -->
-    <div class="bundle-box">
+    <div class="bundle-box" data-price="528">
         <div class="bundle-header">
             <div class="bundle-left">
-                <input type="radio" name="bundle" onclick="selectBundle(this,528)">
+                <input type="radio" name="bundle" onclick="selectBundle(this)">
                 <span>3 Pairs</span>
             </div>
             <span>60% OFF</span>
@@ -125,34 +67,6 @@
                     <div class="cell">Size</div>
                     <div class="cell">Colour</div>
                 </div>
-                <div class="row">
-                    <div class="cell">
-                        <select>
-                            <option>S</option>
-                            <option>M</option>
-                        </select>
-                    </div>
-                    <div class="cell">
-                        <select>
-                            <option>Black</option>
-                            <option>White</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="cell">
-                        <select>
-                            <option>S</option>
-                            <option>M</option>
-                        </select>
-                    </div>
-                    <div class="cell">
-                        <select>
-                            <option>Black</option>
-                            <option>White</option>
-                        </select>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
@@ -163,7 +77,6 @@
     <div class="add-to-cart">+ Add to Cart</div>
 
     <script src="index.js"></script>
-
 </body>
 
 </html>
