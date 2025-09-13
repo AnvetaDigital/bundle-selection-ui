@@ -12,10 +12,3 @@ This project is an **assignment** demonstrating interactive product bundle selec
 1. Clone or download this repository.  
 2. Open `index.html` in your browser.  
 
-## Preview
-Example of bundle selection UI:  
-
-<img width="436" height="393" alt="Preview" src="https://github.com/user-attachments/assets/41419dfd-09c3-49dc-ac11-6c154da2d40c" />
-
-When selecting a bundle, the box expands to show size and color options.
-
